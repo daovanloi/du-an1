@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="Css.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img class="anh1" src="Anh/logo.png" alt="">
+            <input type="text" value="Nhập Tên Điện Thoại..... cần tìm">
+            <p class="text-animation">
+                Hotline hỗ trợ<br>
+                0247896568-0989386588<br>
+                <button><a href="dangnhap.html">Đăng nhập</a></button>
+            </p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="Trangchu.html">TRANG CHỦ</a></li>
+                <li><a href="Gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="Lienhe.html">HỎI ĐÁP & LIÊN HỆ</a></li>
+            </ul>
+        </div>
+        <div id="img">
+            <img src="Anh/banner1.jpg" width="1200px" id="anh">
+        </div>
+        <h1>HỎI ĐÁP & LIÊN HỆ</h1>
+        <div class="text4">
+            <b>CÔNG TY TNHH THƯƠNG MẠI VÀ THÔNG TIN ĐỨC VIỆT</b>
+            <br><br>
+            Tel: 024.62754433
+            <br><br>
+            Hotline: 0982563208
+            <br><br>
+            Email: contact@vietlaptop.com
+            <br><br>
+            Địa chỉ: 530 đường 3 tháng 2, Huyện Đan Phượng, TP Hà Nội
+            <br><br>
+            Điện thoại : 024.6275.4433
+            <br><br>
+            <b> Nếu có yêu cầu xin vui lòng điền các yêu cầu <a href="from.html">tại đây</a> và gửi cho chúng tôi. Chúng tôi sẽ trả lời bạn ngay sau
+                khi nhận được. Xin chân thành cảm ơn!</b>  
+        </div>
+
+        <h4 style="background-color: gainsboro;">Liên hệ & hỗ trợ khách hàng</h4>
+        <hr>
+        <footer>
+            <div class="text1">
+                <h3>HỆ THỐNG LAPTOP XACH TAY SHOP</h3><br>
+                <b>SHOWROOM BÁN HÀNG</b><br>
+                <b>Địa chỉ:</b> 10 đường 1 đồng tháp , Huyện Đan Phượng, Thành Phố Hà Nội<br>
+                <b>Hotline:</b> 0982563208<br>
+                <b>TRUNG TÂM BẢO HÀNH VÀ KỸ THUẬT IT LAPTOP XACH TAY SHOP</b><br>
+                <b>Địa chỉ:</b> 530 đường 3 tháng 2 , Huyện Đạn Phượng, TP Hà Nội<br>
+                <b>Hotline hỗ trợ kỹ thuật:</b> 0247896568 - 0989386588<br>
+                THỜI GIAN LÀM VIỆC<br>
+                <b>Showroom:</b> Tất cả các ngày ( 8:30 - 21:00 )<br>
+                <b>TT Bảo hành:</b> Thứ 2 - thứ 7 ( 8:30 - 17:00 )
+            </div>
+            <div class="text2">
+                <h3>HỖ TRỢ - DỊCH VỤ</h3><br>
+                Liên hệ & hỗ trợ khách hàng
+            </div>
+            <div class="text3">
+                <h3>HỖ TRỢ THANH TOÁN</h3><br>
+                <img src="Anh/payments.png" alt="">
+                <img src="Anh/post1.png" alt=""><br>
+                <img src="Anh/dathongbao.png" alt="" width="170px">
+            </div>
+        </footer>
+
+    </div>
+    <script>
+        var images = [];
+		for (var i = 1; i < 4; i++) {
+			images[i] = new Image();
+			images[i].src = "Anh/banner" + i + ".jpg";
+		}
+		var index = 1;
+		var anh = document.getElementById("anh");
+        function Start() {
+			index++;
+			if (index > images.length - 1) {
+				index = 1;
+			}
+			anh.src = images[index].src;
+			t = setTimeout("Start()", 2000);
+		}
+		Start();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: red;
+    display:flex;
+    justify-content: space-between;
+    align-items:stretch;
+    
+    
+   
+    margin-top: 32px;
+}
+
+.anh1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    height:90px;
+   
+   
+}
+
+.header input {
+    margin-top: 30px;
+    width: 500px;
+    height: 30px;
+}
+
+.header p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.header button a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+
+.menu{
+    background-color: black;
+    width: 100%;
+    line-height: 40px;
+}
+
+li{
+   
+   display:inline-flex;
+    margin-left: 40px;
+    
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#img {
+    margin-top: 10px;
+}
+
+.contend {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 40px;
+}
+
+.contend p b {
+    color: red;
+    font-size: 20px;
+}
+
+.contend p {
+    margin-top: 10px;
+}
+
+.content_item1 {
+    margin-right: 32px;
+}
+
+.content_item2 {
+    margin-right: 32px;
+}
+
+.content_item3 {
+    margin-right: 32px;
+}
+
+.bannermid {
+    margin-top: 20px;
+}
+
+.bannermid img {
+    width: 1200px;
+}
+
+h1 {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: gainsboro;
+}
+
+.text1 {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.text2 {
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.text3{
+    margin-top: 20px;
+    margin-left: 70px;
+}.text4{
+    font-size: 20px;
+}
+ ul li a{
+text-decoration: none;
+}
+@keyframes my { 
+    0% { color: #F8CD0A; } 
+    50% { color: #fff; } 
+    100% { color: #F8CD0A; }
+     }
+.text-animation{ 
+   
+    font-size:24px; 
+    font-weight:bold; 
+    -webkit-animation: my 700ms infinite; 
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite; 
+    }
+    .chuchay a{
+     text-decoration: none;
+     margin-top: 20px;
+     font-size:40px ;
+     color:darkred;
+     background-color: #F8CD0A;
+    
+    }
+    .content_item1:hover{
+        transform:scale(1.1) ;
+    }
+    .content_item2:hover{
+        transform:scale(1.1) ;
+    }
+    .content_item3:hover{
+        transform:scale(1.1) ;
+    }
+    .content_item4:hover{
+        transform:scale(1.1) ;
+    }
+    .header form {
+        position: relative;
+       
+      }
+      
+      .header form input {
+        border: none;
+        background: #fff;
+        padding: 7px;
+        outline: none;
+        border-radius: 12px;
+      }
+      
+      
+      .cart {
+        font-size: 15px;
+        color: #fff;
+        background: #c7b200;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        outline: none;
+        margin-left: 1rem;
+        padding: 12px;
+        cursor: pointer;
+       height:43px;
+       
+      }
+      
+      .cart:hover {
+        border-color: #fff;
+      }
+      .icon_gh{
+        padding-top:30px;
+        padding-left:20px ;
+       
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      }
+      
+      li {
+        list-style: none;
+      }
+      .item_desc button{
+       background-color:goldenrod;
+       color:aliceblue;
+       border:none;
+       height:30px;
+       width:210px;
+       font-weight: bold;
+      }
+      #btn_cart{
+        font-size:40px;
+        
+       
+      }
+      form{
+        justify-content: center;
+        justify-items: center;
+       
+      }
+      .giohang{
+        padding-top:15px;
+        
+      }
+     
+      
